@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+.left-container{
+    background-image: url('../images/Frame\ 40.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #CC2025;
+    padding: 5rem 4rem 5rem 3rem;
+}
+.left-container .heading{
+    margin-top: 2rem;
+}
+.left-container .heading > h1{
+    font-size: 2.8rem;
+    color: white;
+    line-height: 3.2rem;
+}
+.left-container .paragraphs{
+    margin-top: 1.7rem;
+    width: 80%;
+}
+.left-container .paragraphs > p{
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: .7rem;
+}
+.left-container .sign-up{
+    margin-top: 2rem;
+}
+.left-container .sign-up input{
+    width: 9rem;
+    padding: .5rem 0;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-right: .5rem;
+}
+.left-container .sign-up input[type='button']{
+    background-color: white;
+    color: #CC2025;
+    font-weight: bold;
+    width: 7rem;
+    cursor: pointer;
+}
+.left-container .sign-up input::placeholder{
+    color: white;
+    padding-left: .5rem;
+}
+.left-container .sign-up input:focus{
+    outline: none;
+}
+
+
+
+.right-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url('../images/Frame\ 69.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 3rem 0 2rem;
+}
+.right-container .carrousel-photo > img{
+    width: 100%;
+}
+.right-container .carrousel-text{
+    display: grid;
+    align-content: end;
+    padding-bottom: 7rem;
+    
+}
+.right-container .carrousel-text h3{
+    font-size: 1.6rem;
+    color: #CC2025;
+    width: 80%;
+    margin-left: 3.5rem;
+}

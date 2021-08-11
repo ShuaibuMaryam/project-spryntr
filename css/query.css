@@ -1,0 +1,52 @@
+@media(max-width: 768px){
+    main{
+        grid-auto-flow: column;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+    }
+    .left-container{
+        padding: 3rem 1rem 2rem 1rem;
+    }
+    .left-container .heading > h1{
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+    .left-container .paragraphs > p{
+        font-size: .8rem;
+    }
+    .sign-up > form{
+        display: grid;
+        grid-template-columns: 1fr 1fr max-content;
+        gap: 0;
+    }
+    .left-container .sign-up input{
+        width: 6rem;
+        margin-right: 0;
+    }
+    .left-container .sign-up input[type='button']{
+        width: 5rem;
+    }
+    .left-container .sign-up input::placeholder{
+        font-size: smaller;
+        padding-left: .2rem;
+    }
+
+    .right-container{
+        grid-auto-flow: column;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+    }
+    .right-container .carrousel-text{
+        align-content: start;
+        justify-content: start;
+        margin-top: .8rem;
+       
+
+    }
+    .right-container .carrousel-text h3{
+        font-size: 1.3rem;
+        margin-left: unset;
+        line-height: 2rem;
+        padding-bottom: 0 !important;
+    }
+}
