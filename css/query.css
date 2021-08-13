@@ -20,7 +20,7 @@
         gap: 0;
     }
     .left-container .sign-up input{
-        width: 6rem;
+        width: 6.4rem;
         margin-right: 0;
     }
     .left-container .sign-up input[type='button']{
@@ -31,16 +31,17 @@
         padding-left: .2rem;
     }
 
-    .right-container{
+    /* .right-container{
+        display: grid;
         grid-auto-flow: column;
-        grid-template-columns: 100%;
+        grid-template-columns: 90%;
         grid-template-rows: 1fr 1fr;
-    }
+    } */
     .right-container .carrousel-text{
         align-content: start;
-        justify-content: start;
+        /* justify-content: start; */
         margin-top: .8rem;
-       
+        
 
     }
     .right-container .carrousel-text h3{
