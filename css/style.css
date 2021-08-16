@@ -75,15 +75,10 @@ main{
     padding: 5rem 3rem 0 2rem;
     height: 100vh;
 }
-.right-container .carrousel-photo > img{
-    /* width: 100%; */
-}
 .right-container .carrousel-text{
     display: grid;
     align-content: end;
     height: 90%;
-    /* padding-bottom: 7rem; */
-    
 }
 .right-container .carrousel-text h3{
     font-size: 1.6rem;
