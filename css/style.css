@@ -10,7 +10,8 @@ body{
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
+    grid-template-rows: 1fr auto;
+    /* height: 100vh; */
 }
 .left-container{
     background-image: url('../images/Frame\ 40.svg');
@@ -67,35 +68,39 @@ main{
 
 .right-container{
     display: grid;
-    grid-template-columns: 1fr max-content;
+    grid-template-columns: 1fr 1fr;
     background-image: url('../images/Frame\ 69.svg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5rem 3rem 0 2rem;
+    height: 100vh;
 }
 .right-container .carrousel-photo > img{
-    width: 100%;
+    /* width: 100%; */
 }
 .right-container .carrousel-text{
     display: grid;
     align-content: end;
-    padding-bottom: 7rem;
+    height: 90%;
+    /* padding-bottom: 7rem; */
     
 }
 .right-container .carrousel-text h3{
     font-size: 1.6rem;
     color: #CC2025;
     width: 80%;
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
 }
 
 /*-----Footer-----*/
 footer{
     background-color: black;
     display: grid;
+    grid-area: 3 / 1 / 4 / 4;
     grid-template-columns: 1fr 1fr 1fr;
     align-content: center;
     padding: 3rem 5rem;
+    width: 100%;
     margin-top: 3rem;
 }
 footer .footer-logo > img{
