@@ -73,7 +73,7 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5rem 3rem 0 2rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .right-container .carrousel-photo > img{
     /* width: 100%; */
